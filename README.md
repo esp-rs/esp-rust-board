@@ -4,7 +4,7 @@ Welcome to the Rust ESP Development board project.
 
 ## Project Specification 
 
-This board is based on the ESP32-C3, and includes sensors, LED, buttons, battery charger and USB type-C connector.
+This board is based on the ESP32-C3, and includes sensors, LED, buttons, battery charger, and USB type-C connector.
 
 ### SoC Features
 
@@ -51,7 +51,7 @@ This board includes the following peripherals over the I2C bus:
 
 ### I/Os
 
-The following devices are connected thought GPIO:
+The following devices are connected through GPIO:
 
 | I/O Devices | GPIO   |
 |-------------|--------|
@@ -60,32 +60,32 @@ The following devices are connected thought GPIO:
 
 ### Power
 
-* USB type-C (*no PD compatability*)
+* USB type-C (*no PD compatibility*)
 
 ### Pin Layout
 
-> This is the preliminary pin layout and changes may occur!
+> This is the preliminary pin layout. Changes may occur!
 
 #### Left Side (J?)
 
-| Pin Number | Description    | SoC     |
-|------------|----------------|---------|
-| 1          | Reset          |         |
-| 2          | 3V3            |         |
-| 3          | N/C            |         |
-| 4          | GND            |         |
-| 5          | IO0/ADC1-0     | GPIO0   |
-| 6          | IO1/ADC1-1     | GPIO1   |
-| 7          | IO2/ADC1-2     | GPIO2   |
-| 8          | IO3/ADC1-3     | GPIO3   |
-| 9          | IO4/ADC2-1     | GPIO4   |
-| 10         | IO5/ADC2-0     | GPIO5   |
-| 11         | IO6/MTCK       | GPIO6   |
-| 12         | IO7/MTDO/LED   | GPIO7   |
-| 13         | IO9/LOG        | GPIO8   |
-| 14         | IO21/U0RXD     | GPIO21  |
-| 15         | IO20/U0TXD     | GPIO20  |
-| 16         | IO9/BOOT       | GPIO9   |
+| Pin Number | Description    | SoC        |
+|------------|----------------|------------|
+| 1          | Reset          | EN/CHIP_PU |
+| 2          | 3V3            |            |
+| 3          | N/C            |            |
+| 4          | GND            |            |
+| 5          | IO0/ADC1-0     | GPIO0      |
+| 6          | IO1/ADC1-1     | GPIO1      |
+| 7          | IO2/ADC1-2     | GPIO2      |
+| 8          | IO3/ADC1-3     | GPIO3      |
+| 9          | IO4/ADC2-0     | GPIO5      |
+| 10         | IO5/ADC2-1     | GPIO4      |
+| 11         | IO6/MTCK       | GPIO6      |
+| 12         | IO7/MTDO/LED   | GPIO7      |
+| 13         | IO9/LOG        | GPIO8      |
+| 14         | IO21/U0RXD     | GPIO21     |
+| 15         | IO20/U0TXD     | GPIO20     |
+| 16         | IO9/BOOT       | GPIO9      |
 
 #### Right Side (J?)
 
@@ -95,12 +95,12 @@ The following devices are connected thought GPIO:
 | 2          | EN [1]         |         |
 | 3          | VBUS [2]       |         |
 | 4          | IO12/SPIHD     | GPIO12  |
-| 5          | IO16/SPID      | GPIO16  |
-| 6          | IO17/SPIQ      | GPIO17  |
-| 7          | IO13/SPIWP     | GPIO13  |
-| 8          | IO15/SPICLK    | GPIO15  |
-| 9          | IO19/USB_D+    | GPIO19  |
-| 10         | IO18/USB_D-    | GPIO18  |
+| 5          | IO13/SPIWP     | GPIO13  |
+| 6          | IO15/SPICLK    | GPIO15  |
+| 7          | IO16/SPID      | GPIO16  |
+| 8          | IO17/SPIQ      | GPIO17  |
+| 9          | IO18/USB_D-    | GPIO18  |
+| 10         | IO19/USB_D+    | GPIO19  |
 | 11         | IO8/SCL        | GPIO8   |
 | 12         | IO10/SDA       | GPIO10  |
 
@@ -114,9 +114,7 @@ The following devices are connected thought GPIO:
 
 ### Board Design
 
-> This is the preliminary layout and changes may occur!
-
-![Board Layout](/assets/Rust_Board_Footprint.png)
+> This is the preliminary layout. Changes may occur!
 
 ## Design
 
