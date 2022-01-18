@@ -37,10 +37,10 @@ For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif
 
 This board includes the following peripherals over the I2C bus:
 
-| Peripheral                | Part number  | Reference                                                                   | Crate |
-|---------------------------|--------------|-----------------------------------------------------------------------------|-------|
-| IMU                       | ICM-42670-P  | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/) | N/A   |
-| Temperature and Humidity  | SHTC3        | [Datasheet](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/digital-humidity-sensor-shtc3-our-new-standard-for-consumer-electronics/)            | [Link](https://crates.io/crates/shtcx)       |
+| Peripheral                | Part number  | Reference                                                                   | Crate | Address |
+|---------------------------|--------------|-----------------------------------------------------------------------------|-------|---------|
+| IMU                       | ICM-42670-P  | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/) | N/A   | 0x68 |
+| Temperature and Humidity  | SHTC3        | [Datasheet](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/digital-humidity-sensor-shtc3-our-new-standard-for-consumer-electronics/)            | [Link](https://crates.io/crates/shtcx)       | 0x70 |
 
 #### I2C Bus Connection
 
@@ -60,13 +60,12 @@ The following devices are connected through GPIO:
 
 ### Power
 
-* USB type-C (*no PD compatibility*)
+* USB type-C (*no PD compatibility*).
+* Li-Ion battery charger.
 
 ### Pin Layout
 
-> This is the preliminary pin layout. Changes may occur!
-
-#### Left Side (J?)
+#### Left Side
 
 | Pin Number | Description    | SoC        |
 |------------|----------------|------------|
@@ -78,8 +77,8 @@ The following devices are connected through GPIO:
 | 6          | IO1/ADC1-1     | GPIO1      |
 | 7          | IO2/ADC1-2     | GPIO2      |
 | 8          | IO3/ADC1-3     | GPIO3      |
-| 9          | IO4/ADC2-0     | GPIO5      |
-| 10         | IO5/ADC2-1     | GPIO4      |
+| 9          | IO4/ADC2-0     | GPIO4      |
+| 10         | IO5/ADC2-1     | GPIO5      |
 | 11         | IO6/MTCK       | GPIO6      |
 | 12         | IO7/MTDO/LED   | GPIO7      |
 | 13         | IO9/LOG        | GPIO8      |
@@ -87,36 +86,40 @@ The following devices are connected through GPIO:
 | 15         | IO20/U0TXD     | GPIO20     |
 | 16         | IO9/BOOT       | GPIO9      |
 
-#### Right Side (J?)
+#### Right Side
 
 | Pin Number | Description    | SoC     |
 |------------|----------------|---------|
 | 1          | VBAT           |         |
 | 2          | EN [1]         |         |
 | 3          | VBUS [2]       |         |
-| 4          | IO12/SPIHD     | GPIO12  |
-| 5          | IO13/SPIWP     | GPIO13  |
-| 6          | IO15/SPICLK    | GPIO15  |
-| 7          | IO16/SPID      | GPIO16  |
-| 8          | IO17/SPIQ      | GPIO17  |
+| 4          | NC             |         |
+| 5          | NC             |         |
+| 6          | NC             |         |
+| 7          | NC             |         |
+| 8          | NC             |         |
 | 9          | IO18/USB_D-    | GPIO18  |
 | 10         | IO19/USB_D+    | GPIO19  |
 | 11         | IO8/SCL        | GPIO8   |
 | 12         | IO10/SDA       | GPIO10  |
 
-*[1] Connected to LDO enable pin*
-
-*[2]Connected to USB 5V*
+  * [1] Connected to LDO enable pin*
+  * [2] Connected to USB 5V*
 
 ## Project KiCad Libraries
 
 * [ESP32C3](https://github.com/espressif/kicad-libraries)
 
-### Board Design
+## Board Design
 
-> This is the preliminary layout. Changes may occur!
+Top
 
-## Design
+![TOP](assets/esp-rust-board_top.jpg)
 
-* Rust logo on it - https://www.rust-lang.org/policies/media-guide
-  * Permission required from Rust foundation
+Bottom
+
+![BOT](assets/esp-rust-board_bot.jpg)
+
+## Bill of Material
+
+[Interactive BOM](https://esp-rs.github.io/esp-rust-board/)

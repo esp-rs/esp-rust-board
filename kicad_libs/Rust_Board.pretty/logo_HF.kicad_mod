@@ -1,0 +1,17 @@
+(footprint "logo_HF" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 61EFCEEC)
+  (fp_text reference "REF**" (at 0 3.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp c9a0dd18-d945-4bfe-8921-ced29a4068d2)
+  )
+  (fp_text value "logo_HF" (at 0 4.9 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e149e0b1-47fa-4b20-b36e-2d51ee1e85c3)
+  )
+  (fp_text user "HF" (at -0.023025 0 unlocked) (layer "F.SilkS")
+    (effects (font (size 1.2 1.2) (thickness 0.2)))
+    (tstamp 5994a946-119f-4db4-aafe-00ae73b5b800)
+  )
+  (fp_circle (center -0.023025 0) (end 1.4 0) (layer "F.SilkS") (width 0.2) (fill none) (tstamp 6ff874d0-4ac5-414c-83a7-573eda4c7703))
+)
