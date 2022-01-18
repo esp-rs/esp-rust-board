@@ -27,3 +27,6 @@ fp-info-cache
 *.xml
 *.csv
 
+# Backup Files/Folder
+*-backups
+*.zip
