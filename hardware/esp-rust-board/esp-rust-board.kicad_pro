@@ -381,7 +381,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "esp-rs_craboard.kicad_pro",
+    "filename": "esp-rust-board.kicad_pro",
     "version": 1
   },
   "net_settings": {
