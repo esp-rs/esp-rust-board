@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "6.0.0-d3dd2cf0fa~116~ubuntu21.04.1"
     },
-    "CreationDate": "2022-01-24T19:29:08+00:00"
+    "CreationDate": "2022-01-25T14:11:53+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -26,10 +26,10 @@
       "Layers": "Outer",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.2,
+      "TrackToTrack": 0.127,
       "MinLineWidth": 0.1524,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToRegion": 0.127,
+      "RegionToRegion": 0.127
     }
   ],
   "FilesAttributes": [

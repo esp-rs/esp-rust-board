@@ -1,7 +1,9 @@
-### Module positions - created on seg 24 jan 2022 19:28:44 ###
+### Module positions - created on ter 25 jan 2022 14:13:58 ###
 ### Printed by Pcbnew version 6.0.0-d3dd2cf0fa~116~ubuntu21.04.1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
 # Ref     Val       Package                PosX       PosY       Rot  Side
 G***      LOGO      esp-rs_logo_tiny  -148.0820   -70.6120  180.0000  bottom
+REF**     logo_HF   logo_HF           -149.7076  -125.9840  180.0000  bottom
+REF**     logo_HF   logo_PB           -146.4056  -125.9840  180.0000  bottom
 ## End

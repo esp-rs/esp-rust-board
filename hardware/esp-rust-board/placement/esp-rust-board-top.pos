@@ -1,4 +1,4 @@
-### Module positions - created on seg 24 jan 2022 19:28:44 ###
+### Module positions - created on ter 25 jan 2022 14:13:58 ###
 ### Printed by Pcbnew version 6.0.0-d3dd2cf0fa~116~ubuntu21.04.1
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -27,7 +27,7 @@ D5        LESD5D5.0CT1G               D_SOD-523                         146.3040
 D6        B5819W                      D_SOD-123                         144.0180  -117.3480  -90.0000  top
 D7        LESD5D5.0CT1G               D_SOD-523                         149.8600  -118.8720   90.0000  top
 D8        LESD5D5.0CT1G               D_SOD-523                         148.0820  -118.8720   90.0000  top
-G***      LOGO                        esp-rs_logo_4mm                   147.4470   -97.7900    0.0000  top
+G***      LOGO                        esp-rs_logo_4mm                   139.7508  -119.0498    0.0000  top
 J1        USB4105-GF-A                GCT_USB4105-GF-A                  148.0820  -125.9840    0.0000  top
 L1        SPH4018H2R2MT_(2.2uH_2.2A)  L_Coilcraft_XxL4020               145.1610  -106.2990  180.0000  top
 Q1        DMG3415U                    SOT-23                            151.8920  -113.6650  -90.0000  top
