@@ -65,7 +65,7 @@ The following devices are connected through GPIO:
 
 ### Pin Layout
 
-#### Left Side (J?)
+#### Left Side
 
 | Pin Number | Description    | SoC        |
 |------------|----------------|------------|
@@ -86,7 +86,7 @@ The following devices are connected through GPIO:
 | 15         | IO20/U0TXD     | GPIO20     |
 | 16         | IO9/BOOT       | GPIO9      |
 
-#### Right Side (J?)
+#### Right Side
 
 | Pin Number | Description    | SoC     |
 |------------|----------------|---------|
