@@ -120,6 +120,6 @@ Bottom
 
 ![BOT](assets/esp-rust-board_bot.jpg)
 
-## Build of Material
+## Bill of Material
 
 [Interactive BOM](https://esp-rs.github.io/esp-rust-board/)
