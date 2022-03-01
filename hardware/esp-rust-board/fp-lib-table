@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Rust_Board")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/Rust_Board.pretty")(options "")(descr ""))
+)
