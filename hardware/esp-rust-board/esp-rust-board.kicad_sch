@@ -958,7 +958,7 @@
       (property "Reference" "U" (id 0) (at 7.62 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Value" "Rust_Board_SHTC3" (id 1) (at 3.81 -12.7 0)
+      (property "Value" "SHTC3" (id 1) (at 3.81 -12.7 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
       (property "Footprint" "SON100P200X200X80-5N" (id 2) (at 3.81 -17.78 0)
@@ -4864,7 +4864,7 @@
     (uuid 00000000-0000-0000-0000-000061b87401)
     (property "Reference" "U4" (id 0) (at 215.9 115.189 0))
     (property "Value" "Rust_Board" (id 1) (at 215.9 117.5004 0))
-    (property "Footprint" "Rust_Board:Rust_Board_Ret" (id 2) (at 215.9 166.37 0)
+    (property "Footprint" "Rust_Board:Rust_Board" (id 2) (at 215.9 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 215.9 139.7 0)
@@ -7161,7 +7161,7 @@
       (reference "U3") (unit 1) (value "ESP32-C3-MINI-1") (footprint "Espressif:ESP32-C3-MINI-1")
     )
     (path "/00000000-0000-0000-0000-000061b87401"
-      (reference "U4") (unit 1) (value "Rust_Board") (footprint "Rust_Board:Rust_Board_Ret")
+      (reference "U4") (unit 1) (value "Rust_Board") (footprint "Rust_Board:Rust_Board")
     )
     (path "/00000000-0000-0000-0000-000061b89997"
       (reference "U5") (unit 1) (value "SY8088") (footprint "Package_TO_SOT_SMD:SOT-23-5")
