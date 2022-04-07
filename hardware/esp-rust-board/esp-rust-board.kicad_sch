@@ -7,8 +7,8 @@
   (title_block
     (title "ESP32-C3 Rust Development Board")
     (date "2021-11-19")
-    (rev "0.1a")
-    (company "Rust Community")
+    (rev "0.1b")
+    (company "Rust Community and Espressif")
     (comment 1 "ESP32-C3 Development board for Rust")
   )
 

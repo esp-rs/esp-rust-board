@@ -81,7 +81,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "gerber/")
+      (outputdirectory "placement/")
     )
   )
 
@@ -8409,7 +8409,7 @@
 
   (footprint "kibuzzard-623DAB98" (layer "F.Cu")
     (tedit 623DAB98) (tstamp 22aa5139-3981-4f8a-84ad-deca672782ea)
-    (at 155.9 74.3 90)
+    (at 155.9 74.6 90)
     (descr "Converted using: scripting")
     (tags "svg2mod")
     (attr board_only exclude_from_pos_files exclude_from_bom)
