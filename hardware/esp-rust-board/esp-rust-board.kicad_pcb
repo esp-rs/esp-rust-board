@@ -81,7 +81,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "placement/")
+      (outputdirectory "gerber/")
     )
   )
 
