@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "6.0.0-d3dd2cf0fa~116~ubuntu21.04.1"
+      "Version": "6.0.1-79c1e3a40b~116~ubuntu21.04.1"
     },
-    "CreationDate": "2022-01-27T12:17:54+00:00"
+    "CreationDate": "2022-04-07T18:26:23+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "esp-rust-board",
       "GUID": "6573702d-7275-4737-942d-626f6172642e",
-      "Revision": "0.1a"
+      "Revision": "0.1b"
     },
     "Size": {
       "X": 22.91,
