@@ -4865,7 +4865,7 @@
   )
 
   (symbol (lib_id "Rust_Board:Rust_Board") (at 215.9 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061b87401)
     (property "Reference" "U4" (id 0) (at 215.9 115.189 0))
     (property "Value" "Rust_Board" (id 1) (at 215.9 117.5004 0))
