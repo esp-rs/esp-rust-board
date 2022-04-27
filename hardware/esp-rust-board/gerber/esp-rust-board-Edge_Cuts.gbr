@@ -1,18 +1,18 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,6.0.1-79c1e3a40b~116~ubuntu21.04.1*%
-%TF.CreationDate,2022-04-07T18:26:23+01:00*%
-%TF.ProjectId,esp-rust-board,6573702d-7275-4737-942d-626f6172642e,0.1b*%
-%TF.SameCoordinates,Original*%
-%TF.FileFunction,Profile,NP*%
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,6.0.1-79c1e3a40b~116~ubuntu21.04.1*
+G04 #@! TF.CreationDate,2022-04-27T15:47:00+02:00*
+G04 #@! TF.ProjectId,esp-rust-board,6573702d-7275-4737-942d-626f6172642e,1.2a*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Profile,NP*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 6.0.1-79c1e3a40b~116~ubuntu21.04.1) date 2022-04-07 18:26:23*
+G04 Created by KiCad (PCBNEW 6.0.1-79c1e3a40b~116~ubuntu21.04.1) date 2022-04-27 15:47:00*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%TA.AperFunction,Profile*%
+G04 #@! TA.AperFunction,Profile*
 %ADD10C,0.050000*%
-%TD*%
+G04 #@! TD*
 G04 APERTURE END LIST*
 D10*
 X158750000Y-128524000D02*
