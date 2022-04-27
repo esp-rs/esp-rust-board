@@ -1,6 +1,6 @@
 # Rust ESP Board
 
-Welcome to the Rust ESP Development board project.
+Welcome to the Rust ESP Development board project. This repository contains everything you will need to build the board yourself. Manufactured boards will be available soon, at which point a purchase link will replace this text.
 
 ## Project Specification 
 
