@@ -4,10 +4,9 @@ Welcome to the Rust ESP Development board project. This repository contains ever
 
 ## Project Specification 
 
-This board is based on the ESP32-C3, and includes sensors, LED, buttons, battery charger, and USB type-C connector.
+This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a battery charger, and USB type-C connector.
 
 ### SoC Features
-
 
 * IEEE 802.11 b/g/n-compliant
 * Bluetooth 5, Bluetooth mesh
@@ -55,6 +54,7 @@ The following devices are connected through GPIO:
 
 | I/O Devices | GPIO   |
 |-------------|--------|
+| WS2812 LED  | GPIO2  |
 | LED         | GPIO7  |
 | Button/Boot | GPIO9  |
 

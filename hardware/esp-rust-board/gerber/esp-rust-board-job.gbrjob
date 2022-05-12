@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "6.0.1-79c1e3a40b~116~ubuntu21.04.1"
     },
-    "CreationDate": "2022-04-07T18:26:23+01:00"
+    "CreationDate": "2022-05-02T11:52:59+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "esp-rust-board",
       "GUID": "6573702d-7275-4737-942d-626f6172642e",
-      "Revision": "0.1b"
+      "Revision": "1.2a"
     },
     "Size": {
       "X": 22.91,
@@ -19,7 +19,7 @@
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
-    "Finish": "None"
+    "Finish": "ENIG"
   },
   "DesignRules": [
     {
@@ -77,11 +77,17 @@
       "Path": "esp-rust-board-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
+    },
+    {
+      "Path": "esp-rust-board-F_Fab.gbr",
+      "FileFunction": "AssemblyDrawing,Top",
+      "FilePolarity": "Positive"
     }
   ],
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Top Silk Screen"
     },
     {
@@ -90,6 +96,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
@@ -112,6 +119,7 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "Black",
       "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
@@ -121,6 +129,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "White",
       "Name": "Bottom Silk Screen"
     }
   ]
