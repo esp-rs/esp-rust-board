@@ -2,6 +2,15 @@
 
 Welcome to the Rust ESP Development board project. This repository contains everything you will need to build the board yourself. Manufactured boards will be available soon, at which point a purchase link will replace this text.
 
+## Where to buy
+
+* [ESP32-C3-DevKit-RUST-1](https://www.espressif.com/en/products/devkits)
+* [AliExpress Espressif Official Store](https://www.aliexpress.com/item/1005004418342288.html)
+
+## Ferrous Systems Training
+
+* [Training: Explore the power of Rust on the new Espressif board](https://ferrous-systems.com/go/trainings/esp32-c3-devkit-rust-1/)
+
 ## Project Specification 
 
 This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a battery charger, and USB type-C connector.
@@ -31,6 +40,8 @@ This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a batt
 * 1 × temperature sensor
 
 For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf).
+
+![Diagram](assets/rust_board_v1.2_diagram.png)
 
 ### I2C Peripherals
 
@@ -64,6 +75,9 @@ The following devices are connected through GPIO:
 * Li-Ion battery charger.
 
 ### Pin Layout
+
+![Pin Layout](assets/rust_board_v1_pin-layout.png)
+
 
 #### Left Side
 
