@@ -42,7 +42,7 @@ This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a batt
 
 For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf).
 
-![Diagram](assets/rust_board_v1.2_diagram.png)
+![Diagram](assets/rust_board_v1.3_diagram.png)
 
 ### I2C Peripherals
 
@@ -77,7 +77,7 @@ The following devices are connected through GPIO:
 
 ### Pin Layout
 
-![Pin Layout](assets/rust_board_v1_pin-layout.png)
+![Pin Layout](assets/rust_board_v1.3_pin-layout.png)
 
 
 #### Left Side
@@ -96,7 +96,7 @@ The following devices are connected through GPIO:
 | 10         | IO5/ADC2-1     | GPIO5      |
 | 11         | IO6/MTCK       | GPIO6      |
 | 12         | IO7/MTDO/LED   | GPIO7      |
-| 13         | IO9/LOG        | GPIO8      |
+| 13         | IO8/LOG        | GPIO8      |
 | 14         | IO21/U0RXD     | GPIO21     |
 | 15         | IO20/U0TXD     | GPIO20     |
 | 16         | IO9/BOOT       | GPIO9      |
@@ -129,11 +129,11 @@ The following devices are connected through GPIO:
 
 Top
 
-![TOP](assets/esp-rust-board_top.jpg)
+![TOP](assets/esp-rust-board_top.png)
 
 Bottom
 
-![BOT](assets/esp-rust-board_bot.jpg)
+![BOT](assets/esp-rust-board_bot.png)
 
 ## Bill of Material
 
