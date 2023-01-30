@@ -113,8 +113,8 @@ The following devices are connected through GPIO:
 | 6          | NC             |         |
 | 7          | NC             |         |
 | 8          | NC             |         |
-| 9          | IO18/USB_D-    | GPIO18  |
-| 10         | IO19/USB_D+    | GPIO19  |
+| 9          | IO19/USB_D-    | GPIO19  |
+| 10         | IO18/USB_D+    | GPIO18  |
 | 11         | IO8/SCL        | GPIO8   |
 | 12         | IO10/SDA       | GPIO10  |
 
