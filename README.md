@@ -139,3 +139,7 @@ Bottom
 ## Bill of Material
 
 [Interactive BOM](https://esp-rs.github.io/esp-rust-board/)
+
+## Case
+
+[Case 3D Printing Model](https://www.printables.com/model/288200-minimalistic-case-for-esp32-c3-devkit-rust-1)
