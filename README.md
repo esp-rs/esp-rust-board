@@ -78,7 +78,7 @@ The following devices are connected through GPIO:
 
 ### Pin Layout
 
-![Pin Layout](assets/rust_board_v1_pin-layout.png)
+![Pin Layout](assets/rust_board_v1.2_pin_layout.png)
 
 
 #### Left Side
