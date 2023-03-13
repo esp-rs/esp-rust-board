@@ -11,7 +11,7 @@ Welcome to the Rust ESP Development board project. This repository contains ever
 ## Ferrous Systems Training
 
 * [Training Book: Explore the power of Rust on the new Espressif board](https://github.com/esp-rs/espressif-trainings)
-  * [Training Material](https://github.com/esp-rs/espressif-trainings)
+  * [Training Material](https://esp-rs.github.io/espressif-trainings/)
 
 ## Project Specification
 
@@ -49,10 +49,10 @@ For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif
 
 This board includes the following peripherals over the I2C bus:
 
-| Peripheral               | Part number | Reference                                                                                                                                                 | Crate                                     | Address |
-| ------------------------ | ----------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------- |
-| IMU                      | ICM-42670-P | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/)                                                                               | [Link](https://crates.io/crates/icm42670) | 0x68    |
-| Temperature and Humidity | SHTC3       | [Datasheet](https://www.sensirion.com/en/environmental-sensors/humidity-sensors/digital-humidity-sensor-shtc3-our-new-standard-for-consumer-electronics/) | [Link](https://crates.io/crates/shtcx)    | 0x70    |
+| Peripheral               | Part number | Reference                                                                                                      | Crate                                     | Address |
+| ------------------------ | ----------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ------- |
+| IMU                      | ICM-42670-P | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/)                                    | [Link](https://crates.io/crates/icm42670) | 0x68    |
+| Temperature and Humidity | SHTC3       | [Datasheet](https://www.mouser.com/datasheet/2/682/Sensirion_04202018_HT_DS_SHTC3_Preliminiary_D2-1323493.pdf) | [Link](https://crates.io/crates/shtcx)    | 0x70    |
 
 #### I2C Bus Connection
 
