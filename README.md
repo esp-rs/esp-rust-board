@@ -10,8 +10,8 @@ Welcome to the Rust ESP Development board project. This repository contains ever
 
 ## Ferrous Systems Training
 
-* [Training Book: Explore the power of Rust on the new Espressif board](https://github.com/esp-rs/espressif-trainings)
-  * [Training Material](https://esp-rs.github.io/espressif-trainings/)
+* [Training Book: Explore the power of Rust on the new Espressif board](https://github.com/esp-rs/std-training)
+  * [Training Material](https://esp-rs.github.io/std-training/)
 
 ## Project Specification
 
