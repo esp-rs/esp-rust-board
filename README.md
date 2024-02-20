@@ -74,7 +74,9 @@ The following devices are connected through GPIO:
 ### Power
 
 * USB type-C (*no PD compatibility*).
-* Li-Ion battery charger.
+* Li-Ion battery charger - MCP73831T-2ACI/OT, it charges up to 4.2V.
+  * Recommendation: MCP73831T-2ACI/OT does not provide battery protection for over-current or over-discharge. For the battery (Li-Ion or Li-Po), it's recommended the ones with embedded protection
+  * Limitation: reading the battery voltage is not supported.
 
 ### Pin Layout
 
