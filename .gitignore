@@ -1,31 +1,68 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# KiCad project files to ignore
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*.kicad_prl
-*.sch-bak
+# Backup and autosave files
 *~
-_autosave-*
+*.bak
 *.tmp
-*-save.pro
-*-save.kicad_pcb
+*.swp
+*.swo
+*.save
+
+# Backup files generated when closing the schematic/layout editors
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Cache and lock files
+*.kicad_prl
+*.sch-prl
 fp-info-cache
+*-cache.lib
+*-rescue.*
 
-# Netlist files (exported from Eeschema)
+# Build output and intermediate files
+*.dcm
 *.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
 *.xml
-
-# Backup Files/Folder
-*-backups
+*.pdf
+*.ps
+*.svg
+*.png
+*.jpg
+*.csv
 *.zip
+*.tar.gz
+*.gz
+*.tar
+
+# Simulation and BOM outputs
+*.spice
+*.bom
+
+# Project-specific temp folders
+__pycache__/
+.autosave/
+.autobackup/
+
+# External plugins or helper scripts output
+*.pyc
+*.pyo
+
+# User-specific settings
+*.kicad_wks
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.pro.user
+*.kicad_pro.user
+*.kicad_sch.autosave
+*.kicad_pcb.autosave
+*.kicad_dru
+sym-lib-table
+
+# VSCode and other IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+

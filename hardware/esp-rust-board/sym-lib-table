@@ -1,3 +1,4 @@
 (sym_lib_table
+  (version 7)
   (lib (name "Rust_Board")(type "KiCad")(uri "${KIPRJMOD}/../../kicad_libs/Rust_Board.kicad_sym")(options "")(descr ""))
 )
