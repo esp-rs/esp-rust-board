@@ -7,6 +7,9 @@ Welcome to the Rust ESP Development board project. This repository contains ever
 * [ESP32-C3-DevKit-RUST-1](https://www.espressif.com/en/products/devkits)
 * [AliExpress Espressif Official Store](https://www.aliexpress.com/item/1005004418342288.html)
 * [Mouser Electronics](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKit-RUST-1?qs=4ASt3YYao0WvXOj9TGjU2A%3D%3D)
+(Note that at least when ordering from the UK and seemingly [EU and Europe](https://www.mouser.co.uk/saleterms/), if you choose to
+order through Mouser there is long process instigated by email post-checkout to fill out and then electronically sign or fax export declaration forms
+which can add significant delay)
 
 ## Ferrous Systems Training
 
