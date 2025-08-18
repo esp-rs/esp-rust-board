@@ -1,6 +1,8 @@
-# Rust ESP Board
+# Rust ESP Board: ESP32-C3-DevKit-RUST-2
 
 Welcome to the Rust ESP Development board project. This repository contains everything you will need to build the board yourself.
+
+> This version is a special edition (v1.3a) made for the Espressif Summit Brazil 2025 and is not available for purchase.ß
 
 ## Where to buy
 
@@ -43,8 +45,6 @@ This board is based on the ESP32-C3, and includes sensors, LEDs, buttons, a batt
 
 For the complete description, see the [ESP32-C3 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-c3_datasheet_en.pdf).
 
-![Diagram](assets/rust_board_v1.2_diagram.png)
-
 ### I2C Peripherals
 
 This board includes the following peripherals over the I2C bus:
@@ -54,22 +54,24 @@ This board includes the following peripherals over the I2C bus:
 | IMU                      | ICM-42670-P | [Datasheet](https://invensense.tdk.com/download-pdf/icm-42670-p-datasheet/)                                    | [Link](https://crates.io/crates/icm42670) | 0x68    |
 | Temperature and Humidity | SHTC3       | [Datasheet](https://www.mouser.com/datasheet/2/682/Sensirion_04202018_HT_DS_SHTC3_Preliminiary_D2-1323493.pdf) | [Link](https://crates.io/crates/shtcx)    | 0x70    |
 
+> Note that the temperature sensor might be affected by the heat dissipation of the module.
+
 #### I2C Bus Connection
 
 | Signal | GPIO   |
 | ------ | ------ |
-| SDA    | GPIO10 |
+| SDA    | GPIO7  |
 | SCL    | GPIO8  |
 
 ### I/Os
 
 The following devices are connected through GPIO:
 
-| I/O Devices | GPIO  |
-| ----------- | ----- |
-| WS2812 LED  | GPIO2 |
-| LED         | GPIO7 |
-| Button/Boot | GPIO9 |
+| I/O Devices | GPIO   |
+| ----------- | -----  |
+| WS2812 LED  | GPIO2  |
+| LED         | GPIO10 |
+| Button/Boot | GPIO9  |
 
 ### Power
 
@@ -80,7 +82,7 @@ The following devices are connected through GPIO:
 
 ### Pin Layout
 
-![Pin Layout](assets/rust_board_v1_pin-layout.png)
+![Pin Layout](assets/ESP32-C3-DevKit-RUST-2_pinlayout.png)
 
 
 #### Left Side
@@ -118,29 +120,15 @@ The following devices are connected through GPIO:
 | 8          | NC          |        |
 | 9          | IO18/USB_D- | GPIO18 |
 | 10         | IO19/USB_D+ | GPIO19 |
-| 11         | IO8/SCL     | GPIO8  |
-| 12         | IO10/SDA    | GPIO10 |
+| 11         | N/C         |        |
+| 12         | N/C         |        |
 
-  * [1] Connected to LDO enable pin*
-  * [2] Connected to USB 5V*
+* [1] Connected to LDO enable pin*
+* [2] Connected to USB 5V*
 
 ## Project KiCad Libraries
 
-* [ESP32C3](https://github.com/espressif/kicad-libraries)
-
-## Board Design
-
-Top
-
-![TOP](assets/esp-rust-board_top.jpg)
-
-Bottom
-
-![BOT](assets/esp-rust-board_bot.jpg)
-
-## Bill of Material
-
-[Interactive BOM](https://esp-rs.github.io/esp-rust-board/)
+* [ESP32-C3](https://github.com/espressif/kicad-libraries)
 
 ## Case
 
