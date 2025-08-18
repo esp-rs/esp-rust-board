@@ -82,7 +82,7 @@ The following devices are connected through GPIO:
 
 ### Pin Layout
 
-![Pin Layout](assets/ESP32-C3-DevKit-RUST-2_pinlayout.png)
+![Pin Layout](assets/rust_board_v1-3a_pin-layout.png)
 
 
 #### Left Side
