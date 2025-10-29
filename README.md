@@ -2,13 +2,9 @@
 
 Welcome to the Rust ESP Development board project. This repository contains everything you will need to build the board yourself.
 
-> This version is a special edition (v1.3a) made for the Espressif Summit Brazil 2025 and is not available for purchase.ß
-
 ## Where to buy
 
-* [ESP32-C3-DevKit-RUST-1](https://www.espressif.com/en/products/devkits)
-* [AliExpress Espressif Official Store](https://www.aliexpress.com/item/1005004418342288.html)
-* [Mouser Electronics](https://www2.mouser.com/ProductDetail/Espressif-Systems/ESP32-C3-DevKit-RUST-1?qs=4ASt3YYao0WvXOj9TGjU2A%3D%3D)
+This version will be available for purchasing soon.
 
 ## Ferrous Systems Training
 

@@ -3,15 +3,15 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.0"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2025-06-10T12:23:54+01:00"
+    "CreationDate": "2025-10-29T12:13:26+08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "esp-rust-board",
       "GUID": "6573702d-7275-4737-942d-626f6172642e",
-      "Revision": "1.3a"
+      "Revision": "2.0"
     },
     "Size": {
       "X": 22.91,

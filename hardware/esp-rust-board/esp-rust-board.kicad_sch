@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "ESP32-C3-DevKit-RUST-2")
-		(date "2025-05-02")
-		(rev "1.3a")
+		(date "2025-10-28")
+		(rev "2.0")
 		(company "Espressif")
 		(comment 1 "ESP32-C3 Development Board for Rust")
 	)
